@@ -754,7 +754,7 @@ margin-bottom: 0px;
   right: 0;
 }
 .card-header  a[aria-expanded="true"]:after {
-  content: "\f056";
+  content: "\f055";
 }
 .table-col1 {
   text-align: right;
