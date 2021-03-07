@@ -73,3 +73,20 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: .15em solid #ffffff }";
   document.body.appendChild(css);
 };
+/*=======================================================================
+                  navbar on scroll script
+========================================================================*/
+$(document).ready(function(){
+    $(window).scroll(function(){
+       
+        // $(".navbar").css("display", "none");
+        if(this.scrollY > 20){
+          $('.stickay').show();
+            $('.stickay').addClass("menu");
+        }else{
+          $('.stickay').hide();
+            $('.stickay').removeClass("menu");
+
+        }
+    });
+});
