@@ -738,14 +738,14 @@ margin-bottom: 0px;
   position: relative;
 }
 .card-header a:after {
-  content: "\&#xf0fe";
+  content: "\f055";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   position: absolute;
   right: 0;
 }
 .card-header  a[aria-expanded="true"]:after {
-  content: "\&#xf0fe";
+  content: "\f055";
 }
 .table-col1 {
   text-align: right;
