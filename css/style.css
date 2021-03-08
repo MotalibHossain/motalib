@@ -185,19 +185,19 @@ START Navbar section
 }
 .col-lg-4 img {
   float: right;
-  height: 311px;
+  height: 339px;
   width: 90%;
 }
 .about-h{
   font-family: 'Roboto Slab', serif;
   text-align: justify;
   }.about-p{
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Roboto Slab', serif;
     text-align: justify;
   }
   .personal-info {
-    padding: 20px 0px;
+    padding: 0px 0px;
     border-radius: 10px;
     transition: 0.3s;
     color: black;
@@ -497,7 +497,7 @@ margin-bottom: 0px;
 ========================================================================*/
 #Services{
   padding: 55px 0px 0px 0px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 .sec-3{
   padding: 54px 0px 33px 0px;
@@ -754,7 +754,7 @@ margin-bottom: 0px;
   right: 0;
 }
 .card-header  a[aria-expanded="true"]:after {
-  content: "\f055";
+  content: "\f056";
 }
 .table-col1 {
   text-align: right;
@@ -1057,6 +1057,7 @@ textarea.contact {
   margin-left: -35px;
   top: -29px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .gototop i {
   color:#92DD03 ;

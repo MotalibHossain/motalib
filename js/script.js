@@ -80,7 +80,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
        
         // $(".navbar").css("display", "none");
-        if(this.scrollY > 20){
+        if(this.scrollY > 50){
           $('.stickay').show();
             $('.stickay').addClass("menu");
         }else{
